@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70230A114EB49438BC136CAA /* Pods_Fipe_11_18_Fipe_11_18UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C62F487891C41261F067424 /* Pods_Fipe_11_18_Fipe_11_18UITests.framework */; };
+		770623F5C161FECAC3C96068 /* Pods_Fipe_11_18Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306C6FC4C458EF886327F03B /* Pods_Fipe_11_18Tests.framework */; };
+		DC55940A1C9B89E5E2FDA0A5 /* Pods_Fipe_11_18.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEC248B5991493B38E4BEFB /* Pods_Fipe_11_18.framework */; };
+		F2017D2825655029003FC1A2 /* MarcasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2017D2625655029003FC1A2 /* MarcasTableViewCell.swift */; };
+		F2017D2925655029003FC1A2 /* MarcasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2017D2725655029003FC1A2 /* MarcasTableViewCell.xib */; };
+		F2017D2F25655D02003FC1A2 /* ModelosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2017D2E25655D02003FC1A2 /* ModelosViewController.swift */; };
+		F2017D3C25655D47003FC1A2 /* ModelosViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2017D3B25655D47003FC1A2 /* ModelosViewController.storyboard */; };
+		F2017D4125656124003FC1A2 /* Modelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2017D4025656124003FC1A2 /* Modelo.swift */; };
+		F2C1805125654B8400B5E280 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C1805025654B8400B5E280 /* AppDelegate.swift */; };
+		F2C1805325654B8400B5E280 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C1805225654B8400B5E280 /* SceneDelegate.swift */; };
+		F2C1805525654B8400B5E280 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C1805425654B8400B5E280 /* ViewController.swift */; };
+		F2C1805825654B8400B5E280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C1805625654B8400B5E280 /* Main.storyboard */; };
+		F2C1805A25654B8800B5E280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C1805925654B8800B5E280 /* Assets.xcassets */; };
+		F2C1805D25654B8800B5E280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C1805B25654B8800B5E280 /* LaunchScreen.storyboard */; };
+		F2C1806825654B8800B5E280 /* Fipe_11_18Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C1806725654B8800B5E280 /* Fipe_11_18Tests.swift */; };
+		F2C1807325654B8800B5E280 /* Fipe_11_18UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C1807225654B8800B5E280 /* Fipe_11_18UITests.swift */; };
+		F2C1808F25654D3100B5E280 /* Marcas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C1808E25654D3100B5E280 /* Marcas.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2C1806425654B8800B5E280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C1804525654B8400B5E280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2C1804C25654B8400B5E280;
+			remoteInfo = Fipe_11_18;
+		};
+		F2C1806F25654B8800B5E280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C1804525654B8400B5E280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2C1804C25654B8400B5E280;
+			remoteInfo = Fipe_11_18;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CE5ACEA63BB251212C38C89 /* Pods-Fipe_11_18-Fipe_11_18UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fipe_11_18-Fipe_11_18UITests.debug.xcconfig"; path = "Target Support Files/Pods-Fipe_11_18-Fipe_11_18UITests/Pods-Fipe_11_18-Fipe_11_18UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		306C6FC4C458EF886327F03B /* Pods_Fipe_11_18Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fipe_11_18Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1CA1840313832EE66CC2C8 /* Pods-Fipe_11_18.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fipe_11_18.release.xcconfig"; path = "Target Support Files/Pods-Fipe_11_18/Pods-Fipe_11_18.release.xcconfig"; sourceTree = "<group>"; };
+		4770912978CF2EF171D5BBA6 /* Pods-Fipe_11_18-Fipe_11_18UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fipe_11_18-Fipe_11_18UITests.release.xcconfig"; path = "Target Support Files/Pods-Fipe_11_18-Fipe_11_18UITests/Pods-Fipe_11_18-Fipe_11_18UITests.release.xcconfig"; sourceTree = "<group>"; };
+		5CEC248B5991493B38E4BEFB /* Pods_Fipe_11_18.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fipe_11_18.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8486FBFEEE9C5D4C6FF5B6EC /* Pods-Fipe_11_18Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fipe_11_18Tests.release.xcconfig"; path = "Target Support Files/Pods-Fipe_11_18Tests/Pods-Fipe_11_18Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8C62F487891C41261F067424 /* Pods_Fipe_11_18_Fipe_11_18UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fipe_11_18_Fipe_11_18UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B929C95364DE1405C681C022 /* Pods-Fipe_11_18Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fipe_11_18Tests.debug.xcconfig"; path = "Target Support Files/Pods-Fipe_11_18Tests/Pods-Fipe_11_18Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2017D2625655029003FC1A2 /* MarcasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcasTableViewCell.swift; sourceTree = "<group>"; };
+		F2017D2725655029003FC1A2 /* MarcasTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarcasTableViewCell.xib; sourceTree = "<group>"; };
+		F2017D2E25655D02003FC1A2 /* ModelosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelosViewController.swift; sourceTree = "<group>"; };
+		F2017D3B25655D47003FC1A2 /* ModelosViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ModelosViewController.storyboard; sourceTree = "<group>"; };
+		F2017D4025656124003FC1A2 /* Modelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo.swift; sourceTree = "<group>"; };
+		F2C1804D25654B8400B5E280 /* Fipe_11_18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fipe_11_18.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C1805025654B8400B5E280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2C1805225654B8400B5E280 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F2C1805425654B8400B5E280 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2C1805725654B8400B5E280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2C1805925654B8800B5E280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2C1805C25654B8800B5E280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2C1805E25654B8800B5E280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C1806325654B8800B5E280 /* Fipe_11_18Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fipe_11_18Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C1806725654B8800B5E280 /* Fipe_11_18Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fipe_11_18Tests.swift; sourceTree = "<group>"; };
+		F2C1806925654B8800B5E280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C1806E25654B8800B5E280 /* Fipe_11_18UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fipe_11_18UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C1807225654B8800B5E280 /* Fipe_11_18UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fipe_11_18UITests.swift; sourceTree = "<group>"; };
+		F2C1807425654B8800B5E280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C1808E25654D3100B5E280 /* Marcas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marcas.swift; sourceTree = "<group>"; };
+		FE1683B19EAB08F0560E07F7 /* Pods-Fipe_11_18.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fipe_11_18.debug.xcconfig"; path = "Target Support Files/Pods-Fipe_11_18/Pods-Fipe_11_18.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2C1804A25654B8400B5E280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC55940A1C9B89E5E2FDA0A5 /* Pods_Fipe_11_18.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C1806025654B8800B5E280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770623F5C161FECAC3C96068 /* Pods_Fipe_11_18Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C1806B25654B8800B5E280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70230A114EB49438BC136CAA /* Pods_Fipe_11_18_Fipe_11_18UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F154DE5AB2411710675AAF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE1683B19EAB08F0560E07F7 /* Pods-Fipe_11_18.debug.xcconfig */,
+				3A1CA1840313832EE66CC2C8 /* Pods-Fipe_11_18.release.xcconfig */,
+				2CE5ACEA63BB251212C38C89 /* Pods-Fipe_11_18-Fipe_11_18UITests.debug.xcconfig */,
+				4770912978CF2EF171D5BBA6 /* Pods-Fipe_11_18-Fipe_11_18UITests.release.xcconfig */,
+				B929C95364DE1405C681C022 /* Pods-Fipe_11_18Tests.debug.xcconfig */,
+				8486FBFEEE9C5D4C6FF5B6EC /* Pods-Fipe_11_18Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F2017D2D25655C2C003FC1A2 /* ModelosCarros */ = {
+			isa = PBXGroup;
+			children = (
+				F2017D2E25655D02003FC1A2 /* ModelosViewController.swift */,
+				F2017D3B25655D47003FC1A2 /* ModelosViewController.storyboard */,
+			);
+			path = ModelosCarros;
+			sourceTree = "<group>";
+		};
+		F2C1804425654B8400B5E280 = {
+			isa = PBXGroup;
+			children = (
+				F2C1804F25654B8400B5E280 /* Fipe_11_18 */,
+				F2C1806625654B8800B5E280 /* Fipe_11_18Tests */,
+				F2C1807125654B8800B5E280 /* Fipe_11_18UITests */,
+				F2C1804E25654B8400B5E280 /* Products */,
+				4F154DE5AB2411710675AAF8 /* Pods */,
+				FEDBF7ABD985756B4694661A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2C1804E25654B8400B5E280 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2C1804D25654B8400B5E280 /* Fipe_11_18.app */,
+				F2C1806325654B8800B5E280 /* Fipe_11_18Tests.xctest */,
+				F2C1806E25654B8800B5E280 /* Fipe_11_18UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2C1804F25654B8400B5E280 /* Fipe_11_18 */ = {
+			isa = PBXGroup;
+			children = (
+				F2C1808A25654BCA00B5E280 /* MVC */,
+				F2C1805025654B8400B5E280 /* AppDelegate.swift */,
+				F2C1805225654B8400B5E280 /* SceneDelegate.swift */,
+				F2C1805625654B8400B5E280 /* Main.storyboard */,
+				F2C1805425654B8400B5E280 /* ViewController.swift */,
+				F2C1805925654B8800B5E280 /* Assets.xcassets */,
+				F2C1805B25654B8800B5E280 /* LaunchScreen.storyboard */,
+				F2C1805E25654B8800B5E280 /* Info.plist */,
+			);
+			path = Fipe_11_18;
+			sourceTree = "<group>";
+		};
+		F2C1806625654B8800B5E280 /* Fipe_11_18Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F2C1806725654B8800B5E280 /* Fipe_11_18Tests.swift */,
+				F2C1806925654B8800B5E280 /* Info.plist */,
+			);
+			path = Fipe_11_18Tests;
+			sourceTree = "<group>";
+		};
+		F2C1807125654B8800B5E280 /* Fipe_11_18UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2C1807225654B8800B5E280 /* Fipe_11_18UITests.swift */,
+				F2C1807425654B8800B5E280 /* Info.plist */,
+			);
+			path = Fipe_11_18UITests;
+			sourceTree = "<group>";
+		};
+		F2C1808A25654BCA00B5E280 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				F2C1808D25654BE600B5E280 /* Model */,
+				F2C1808C25654BE000B5E280 /* View */,
+				F2C1808B25654BD800B5E280 /* Controller */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		F2C1808B25654BD800B5E280 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2C1808E25654D3100B5E280 /* Marcas.swift */,
+				F2017D4025656124003FC1A2 /* Modelo.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2C1808C25654BE000B5E280 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2017D2725655029003FC1A2 /* MarcasTableViewCell.xib */,
+				F2017D2625655029003FC1A2 /* MarcasTableViewCell.swift */,
+				F2017D2D25655C2C003FC1A2 /* ModelosCarros */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2C1808D25654BE600B5E280 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FEDBF7ABD985756B4694661A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CEC248B5991493B38E4BEFB /* Pods_Fipe_11_18.framework */,
+				8C62F487891C41261F067424 /* Pods_Fipe_11_18_Fipe_11_18UITests.framework */,
+				306C6FC4C458EF886327F03B /* Pods_Fipe_11_18Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2C1804C25654B8400B5E280 /* Fipe_11_18 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C1807725654B8800B5E280 /* Build configuration list for PBXNativeTarget "Fipe_11_18" */;
+			buildPhases = (
+				F176B9B733F5AB1EC5BCCF0E /* [CP] Check Pods Manifest.lock */,
+				F2C1804925654B8400B5E280 /* Sources */,
+				F2C1804A25654B8400B5E280 /* Frameworks */,
+				F2C1804B25654B8400B5E280 /* Resources */,
+				366F933DE265E8CAC970A87A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fipe_11_18;
+			productName = Fipe_11_18;
+			productReference = F2C1804D25654B8400B5E280 /* Fipe_11_18.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2C1806225654B8800B5E280 /* Fipe_11_18Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C1807A25654B8800B5E280 /* Build configuration list for PBXNativeTarget "Fipe_11_18Tests" */;
+			buildPhases = (
+				5221F6F9500C3C6F70F56C81 /* [CP] Check Pods Manifest.lock */,
+				F2C1805F25654B8800B5E280 /* Sources */,
+				F2C1806025654B8800B5E280 /* Frameworks */,
+				F2C1806125654B8800B5E280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2C1806525654B8800B5E280 /* PBXTargetDependency */,
+			);
+			name = Fipe_11_18Tests;
+			productName = Fipe_11_18Tests;
+			productReference = F2C1806325654B8800B5E280 /* Fipe_11_18Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2C1806D25654B8800B5E280 /* Fipe_11_18UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C1807D25654B8800B5E280 /* Build configuration list for PBXNativeTarget "Fipe_11_18UITests" */;
+			buildPhases = (
+				6646546E5286E4D6A7C84BA2 /* [CP] Check Pods Manifest.lock */,
+				F2C1806A25654B8800B5E280 /* Sources */,
+				F2C1806B25654B8800B5E280 /* Frameworks */,
+				F2C1806C25654B8800B5E280 /* Resources */,
+				56DBC23BBD5B852E728D0D2B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2C1807025654B8800B5E280 /* PBXTargetDependency */,
+			);
+			name = Fipe_11_18UITests;
+			productName = Fipe_11_18UITests;
+			productReference = F2C1806E25654B8800B5E280 /* Fipe_11_18UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2C1804525654B8400B5E280 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F2C1804C25654B8400B5E280 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F2C1806225654B8800B5E280 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F2C1804C25654B8400B5E280;
+					};
+					F2C1806D25654B8800B5E280 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F2C1804C25654B8400B5E280;
+					};
+				};
+			};
+			buildConfigurationList = F2C1804825654B8400B5E280 /* Build configuration list for PBXProject "Fipe_11_18" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2C1804425654B8400B5E280;
+			productRefGroup = F2C1804E25654B8400B5E280 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2C1804C25654B8400B5E280 /* Fipe_11_18 */,
+				F2C1806225654B8800B5E280 /* Fipe_11_18Tests */,
+				F2C1806D25654B8800B5E280 /* Fipe_11_18UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2C1804B25654B8400B5E280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2017D3C25655D47003FC1A2 /* ModelosViewController.storyboard in Resources */,
+				F2C1805D25654B8800B5E280 /* LaunchScreen.storyboard in Resources */,
+				F2C1805A25654B8800B5E280 /* Assets.xcassets in Resources */,
+				F2017D2925655029003FC1A2 /* MarcasTableViewCell.xib in Resources */,
+				F2C1805825654B8400B5E280 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C1806125654B8800B5E280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C1806C25654B8800B5E280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		366F933DE265E8CAC970A87A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fipe_11_18/Pods-Fipe_11_18-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fipe_11_18/Pods-Fipe_11_18-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fipe_11_18/Pods-Fipe_11_18-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5221F6F9500C3C6F70F56C81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fipe_11_18Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56DBC23BBD5B852E728D0D2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fipe_11_18-Fipe_11_18UITests/Pods-Fipe_11_18-Fipe_11_18UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fipe_11_18-Fipe_11_18UITests/Pods-Fipe_11_18-Fipe_11_18UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fipe_11_18-Fipe_11_18UITests/Pods-Fipe_11_18-Fipe_11_18UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6646546E5286E4D6A7C84BA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fipe_11_18-Fipe_11_18UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F176B9B733F5AB1EC5BCCF0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fipe_11_18-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2C1804925654B8400B5E280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2017D4125656124003FC1A2 /* Modelo.swift in Sources */,
+				F2017D2F25655D02003FC1A2 /* ModelosViewController.swift in Sources */,
+				F2C1805525654B8400B5E280 /* ViewController.swift in Sources */,
+				F2C1805125654B8400B5E280 /* AppDelegate.swift in Sources */,
+				F2017D2825655029003FC1A2 /* MarcasTableViewCell.swift in Sources */,
+				F2C1808F25654D3100B5E280 /* Marcas.swift in Sources */,
+				F2C1805325654B8400B5E280 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C1805F25654B8800B5E280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C1806825654B8800B5E280 /* Fipe_11_18Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C1806A25654B8800B5E280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C1807325654B8800B5E280 /* Fipe_11_18UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2C1806525654B8800B5E280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2C1804C25654B8400B5E280 /* Fipe_11_18 */;
+			targetProxy = F2C1806425654B8800B5E280 /* PBXContainerItemProxy */;
+		};
+		F2C1807025654B8800B5E280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2C1804C25654B8400B5E280 /* Fipe_11_18 */;
+			targetProxy = F2C1806F25654B8800B5E280 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2C1805625654B8400B5E280 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2C1805725654B8400B5E280 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2C1805B25654B8800B5E280 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2C1805C25654B8800B5E280 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2C1807525654B8800B5E280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2C1807625654B8800B5E280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2C1807825654B8800B5E280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE1683B19EAB08F0560E07F7 /* Pods-Fipe_11_18.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fipe_11_18/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.github-bertiGrazi.Fipe-11-18";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2C1807925654B8800B5E280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1CA1840313832EE66CC2C8 /* Pods-Fipe_11_18.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fipe_11_18/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.github-bertiGrazi.Fipe-11-18";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2C1807B25654B8800B5E280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B929C95364DE1405C681C022 /* Pods-Fipe_11_18Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fipe_11_18Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.github-bertiGrazi.Fipe-11-18Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fipe_11_18.app/Fipe_11_18";
+			};
+			name = Debug;
+		};
+		F2C1807C25654B8800B5E280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8486FBFEEE9C5D4C6FF5B6EC /* Pods-Fipe_11_18Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fipe_11_18Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.github-bertiGrazi.Fipe-11-18Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fipe_11_18.app/Fipe_11_18";
+			};
+			name = Release;
+		};
+		F2C1807E25654B8800B5E280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE5ACEA63BB251212C38C89 /* Pods-Fipe_11_18-Fipe_11_18UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fipe_11_18UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.github-bertiGrazi.Fipe-11-18UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fipe_11_18;
+			};
+			name = Debug;
+		};
+		F2C1807F25654B8800B5E280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4770912978CF2EF171D5BBA6 /* Pods-Fipe_11_18-Fipe_11_18UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Fipe_11_18UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.github-bertiGrazi.Fipe-11-18UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fipe_11_18;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2C1804825654B8400B5E280 /* Build configuration list for PBXProject "Fipe_11_18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C1807525654B8800B5E280 /* Debug */,
+				F2C1807625654B8800B5E280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C1807725654B8800B5E280 /* Build configuration list for PBXNativeTarget "Fipe_11_18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C1807825654B8800B5E280 /* Debug */,
+				F2C1807925654B8800B5E280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C1807A25654B8800B5E280 /* Build configuration list for PBXNativeTarget "Fipe_11_18Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C1807B25654B8800B5E280 /* Debug */,
+				F2C1807C25654B8800B5E280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C1807D25654B8800B5E280 /* Build configuration list for PBXNativeTarget "Fipe_11_18UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C1807E25654B8800B5E280 /* Debug */,
+				F2C1807F25654B8800B5E280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2C1804525654B8400B5E280 /* Project object */;
+}
